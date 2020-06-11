@@ -3,27 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BinToDec</title>
+  <title>Bin2Dec</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header>
-    <h1>Binary to Decimal Converter</h1>
-  </header>
-  <main>
-    <div class="content">
-      <div class="field" id="field-binary">
-        <h3>Binary</h3>
-        <label for="binary"></label>
-        <input type="text" name="binary" id="binary" maxlength="8">
-        <span></span>
+  <div class="content">
+    <header>
+      <h1>Bin2Dec</h1>
+    </header>
+    <main>
+      <div class="apresentation">
+        <h1>Convert binary number to <strong>Decimal</strong></h1>
+
       </div>
-      <div class="field" id="field-decimal">
-        <h3>Decimal</h3>
-        <label for="decimal"></label>
-        <input type="text" name="decimal" id="decimal">
+
+      <div class="convert">
+        <div class="field" id="field-binary">
+          <label for="binary">BIN</label>
+          <input type="text" name="binary" id="binary" maxlength="8">
+          <span></span>
+        </div>
+        <div class="field" id="field-decimal">
+          <label for="decimal">DEC</label>
+          <input type="text" name="decimal" id="decimal">
+        </div>
       </div>
-    </div>
-  </main>
+
+      
+    </main>
+  </div>
   <script src="scripts/script.js"></script>
 </body>
 </html>

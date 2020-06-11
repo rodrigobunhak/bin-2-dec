@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: #3f12a8; */
+  background: linear-gradient(145deg,#3d29ec, #090341);
+  color: #ececec;
+}
+
+.content {
+  width: 80%;
+  height: 80vh;
+  margin: 20px auto;
+
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+
+
+header h1 {
+  color: #ececec;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px auto 100px 0px;
+}
+
+
+
+main h3 {
+  font-weight: lighter;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main .apresentation {
+  width: 100%;
+  max-width: 550px;
+  flex: 1;
+}
+
+.apresentation h1 {
+  font-size: 64px;
+  font-weight: 200;
+}
+
+.apresentation h1 strong {
+  font-weight: bold;
+}
+
+main .convert {
+  margin: 15px auto;
+}
+
+main .convert .field {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 200px #0000003d;
+}
+
+main .convert .field label{
+  background: #ececec;
+  padding-left: 15px;
+  width: 80px;
+  color: #3f3f3f;
+  FONT-SIZE: 12px;
+  align-items: center;
+  display: flex;
+}
+
+main .convert #field-binary label {
+  border-radius: 2px 0 0 0;
+}
+
+main .convert #field-decimal label {
+  border-radius: 0 0 0 2px;
+}
+
+main .convert .field input {
+  font-family: 'Play', sans-serif;
+  height: 60px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  color: #535353;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+main .convert #field-binary input {
+  border-radius: 0 2px 0 0;
+}
+
+main .convert #field-decimal input {
+  border-radius: 0 0 2px 0;
+}
+
+main .convert #field-decimal {
+  border-top: 1px solid #e0e0e0;
+}
+
+span {
+  position: absolute;
+  top: 115px;
+}
